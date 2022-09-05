@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 public class Tamagotchi
 {
-    public string name = "Tama";
+    public string name = "";
     private int hunger = 0;
     private int boredom = 0;
     private bool isAlive;
     private Random generator;
-    private List<string> words = new List<string>() {"Sup Beatch"};
+    private List<string> words = new List<string>() {"was guud"};
 
     public Tamagotchi()
     {
