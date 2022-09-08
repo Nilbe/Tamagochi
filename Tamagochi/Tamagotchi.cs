@@ -18,7 +18,7 @@ public class Tamagotchi
 
     public void printStats()
     {
-        Console.WriteLine(name + " is fealing, Hungry: " + hunger + ". Bored: " + boredom);
+        Console.WriteLine(name + " is feeling, Hungry: " + hunger + ". Bored: " + boredom);
     }
 
     public void feed()
@@ -67,8 +67,8 @@ public class Tamagotchi
         }
     }
 
-    public void revive()
+    public bool revive()
     {
-        isAlive = true;
+        return isAlive;
     }
 }
