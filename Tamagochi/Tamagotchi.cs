@@ -36,7 +36,7 @@ public class Tamagotchi
     {
         int wordNumber = generator.Next(words.Count);
 
-        Console.WriteLine($" [{name}] says: {words[wordNumber]}");
+        Console.WriteLine($" {name} says: {words[wordNumber]}");
 
         boredom -= 1;
         if(boredom < 0)
