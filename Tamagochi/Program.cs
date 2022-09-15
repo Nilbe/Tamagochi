@@ -34,6 +34,8 @@ while(tama.revive() == true)
     {
         Console.WriteLine("You did nothing");
     }
+    Console.WriteLine("Press ENTER to continue");
+
     Console.ReadLine();
     
     tama.tick();
