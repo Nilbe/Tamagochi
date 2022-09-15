@@ -7,8 +7,8 @@ public class Tamagotchi
     private int hunger = 0;
     private int boredom = 0;
     private bool isAlive;
-    private Random generator;
-    private List<string> words = new List<string>() {"was guud"};
+    private Random generator; 
+    private List<string> words = new List<string>() {"was guud", "wassup", "tjo bre", "whalla jani"};
 
     public Tamagotchi()
     {
