@@ -30,10 +30,12 @@ while(tama.revive() == true)
     {
         tama.teach();
     }
-    else
+    if(action == "4")
     {
         Console.WriteLine("You did nothing");
     }
+    Console.ReadLine();
+    
     tama.tick();
 }
 
